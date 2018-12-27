@@ -1,5 +1,5 @@
 APPLICATION = co2-meter-riot
-BOARD ?= raytac-mdbt50q-db
+BOARD ?= mdbt50q-db
 RIOTBASE ?= $(CURDIR)/../petr_RIOT
 DEVELHELP ?= 1
 QUIET ?= 1

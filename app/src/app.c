@@ -20,5 +20,6 @@
 #include <stdbool.h>
 
 void app(void) {
+
     while (true) {};
 }
