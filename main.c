@@ -21,7 +21,7 @@
 extern void app(void);
 
 int main(void) {
-    printf("hello proprietary\n");
+    printf("Hello world!\n");
 
     app();
 

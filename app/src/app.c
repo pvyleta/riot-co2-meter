@@ -17,9 +17,13 @@
  */
 
 #include <app.h>
+#include <led.h>
 #include <stdbool.h>
 
 void app(void) {
+	LED_ON(0);
+	LED_ON(1);
+	LED_ON(2);
 
     while (true) {};
 }
