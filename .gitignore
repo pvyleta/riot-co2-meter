@@ -17,6 +17,7 @@
 *.pch
 
 # Libraries
+*.a
 *.lib
 *.la
 *.lo
@@ -52,3 +53,4 @@ dkms.conf
 
 # Binaries
 /bin/
+/bindist/

@@ -1,5 +1,5 @@
 APPLICATION = co2-meter-riot
-BOARD ?= mdbt50q-db
+BOARD ?= nrf52840dk
 RIOTBASE ?= $(CURDIR)/../petr_RIOT
 DEVELHELP ?= 1
 QUIET ?= 1
