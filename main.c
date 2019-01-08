@@ -16,14 +16,10 @@
  * @}
  */
 
+#include <app.h>
 #include <stdio.h>
 
-extern void app(void);
-
 int main(void) {
-    printf("Hello world!\n");
-
     app();
-
     return 0;
 }

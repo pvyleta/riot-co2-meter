@@ -54,3 +54,4 @@ dkms.conf
 # Binaries
 /bin/
 /bindist/
+/eclipsesym.xml
