@@ -37,9 +37,6 @@ static u8x8_riotos_t user_data = {
 };
 
 void stdio_init(void) {
-}
-
-void stdio_init_real(void) {
     u8g2_Setup_ssd1306_128x64_noname_1(&u8g2, U8G2_R0, u8x8_byte_riotos_hw_spi, u8x8_gpio_and_delay_riotos);
     u8g2_SetUserPtr(&u8g2, &user_data);
     u8g2_InitDisplay(&u8g2); // send init sequence to the display, display is in sleep mode after this,
