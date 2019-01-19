@@ -189,6 +189,36 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/home/petr/git/riot-co2-meter/app/inc}&quot;"/>
                                     									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/core/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/drivers/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/sys/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/boards/nrf52840dk/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/boards/common/nrf52xxxdk/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/boards/common/nrf52/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/cpu/nrf52/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/cpu/nrf5x_common/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/cpu/cortexm_common/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/cpu/cortexm_common/include/vendor}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/sys/libc/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/home/petr/git/riot-co2-meter/bin/pkg/nrf52840dk/u8g2/csrc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/drivers/bmx280/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/drivers/ccs811/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/drivers/hdc1000/include}&quot;"/>
+                                    									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/RIOT/core/include}&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/RIOT/drivers/include}&quot;"/>
@@ -211,13 +241,19 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/RIOT/sys/libc/include}&quot;"/>
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/home/petr/git/riot-co2-meter/bin/pkg/nrf52840dk/u8g2/csrc}&quot;"/>
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/RIOT/drivers/bmx280/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/RIOT/drivers/ccs811/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/RIOT/drivers/hdc1000/include}&quot;"/>
                                     								
                                 </option>
                                 								
                                 <option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor.350096472" name="Use preprocessor" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor" value="true" valueType="boolean"/>
                                 								
                                 <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs.1038499417" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="MY_SHELL=1"/>
                                     									
                                     <listOptionValue builtIn="false" value="DEVELHELP=1"/>
                                     									
@@ -243,9 +279,17 @@
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_AUTO_INIT=1"/>
                                     									
+                                    <listOptionValue builtIn="false" value="MODULE_AUTO_INIT_SAUL=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_BME280=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_BMX280=1"/>
+                                    									
                                     <listOptionValue builtIn="false" value="MODULE_BOARD=1"/>
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_BOARDS_COMMON_NRF52XXDK=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_CCS811=1"/>
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_CO2_METER_RIOT_APP=1"/>
                                     									
@@ -263,6 +307,10 @@
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_DIV=1"/>
                                     									
+                                    <listOptionValue builtIn="false" value="MODULE_FMT=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_HDC1000=1"/>
+                                    									
                                     <listOptionValue builtIn="false" value="MODULE_ISRPIPE=1"/>
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_NEWLIB=1"/>
@@ -279,6 +327,8 @@
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_PERIPH_GPIO=1"/>
                                     									
+                                    <listOptionValue builtIn="false" value="MODULE_PERIPH_I2C=1"/>
+                                    									
                                     <listOptionValue builtIn="false" value="MODULE_PERIPH_PM=1"/>
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_PERIPH_SPI=1"/>
@@ -286,6 +336,22 @@
                                     <listOptionValue builtIn="false" value="MODULE_PERIPH_TIMER=1"/>
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_PERIPH_UART=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_PHYDAT=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_PS=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_SAUL=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_SAUL_DEFAULT=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_SAUL_GPIO=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_SAUL_REG=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_SHELL=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_SHELL_COMMANDS=1"/>
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_STDIO_UART=1"/>
                                     									
@@ -311,6 +377,36 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/home/petr/git/riot-co2-meter/app/inc}&quot;"/>
                                     									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/core/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/drivers/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/sys/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/boards/nrf52840dk/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/boards/common/nrf52xxxdk/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/boards/common/nrf52/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/cpu/nrf52/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/cpu/nrf5x_common/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/cpu/cortexm_common/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/cpu/cortexm_common/include/vendor}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/sys/libc/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/home/petr/git/riot-co2-meter/bin/pkg/nrf52840dk/u8g2/csrc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/drivers/bmx280/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/drivers/ccs811/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/drivers/hdc1000/include}&quot;"/>
+                                    									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/RIOT/core/include}&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/RIOT/drivers/include}&quot;"/>
@@ -333,11 +429,17 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/RIOT/sys/libc/include}&quot;"/>
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/home/petr/git/riot-co2-meter/bin/pkg/nrf52840dk/u8g2/csrc}&quot;"/>
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/RIOT/drivers/bmx280/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/RIOT/drivers/ccs811/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/RIOT/drivers/hdc1000/include}&quot;"/>
                                     								
                                 </option>
                                 								
                                 <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs.1885161267" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs" useByScannerDiscovery="true" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="MY_SHELL=1"/>
                                     									
                                     <listOptionValue builtIn="false" value="DEVELHELP=1"/>
                                     									
@@ -363,9 +465,17 @@
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_AUTO_INIT=1"/>
                                     									
+                                    <listOptionValue builtIn="false" value="MODULE_AUTO_INIT_SAUL=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_BME280=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_BMX280=1"/>
+                                    									
                                     <listOptionValue builtIn="false" value="MODULE_BOARD=1"/>
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_BOARDS_COMMON_NRF52XXDK=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_CCS811=1"/>
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_CO2_METER_RIOT_APP=1"/>
                                     									
@@ -383,6 +493,10 @@
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_DIV=1"/>
                                     									
+                                    <listOptionValue builtIn="false" value="MODULE_FMT=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_HDC1000=1"/>
+                                    									
                                     <listOptionValue builtIn="false" value="MODULE_ISRPIPE=1"/>
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_NEWLIB=1"/>
@@ -399,6 +513,8 @@
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_PERIPH_GPIO=1"/>
                                     									
+                                    <listOptionValue builtIn="false" value="MODULE_PERIPH_I2C=1"/>
+                                    									
                                     <listOptionValue builtIn="false" value="MODULE_PERIPH_PM=1"/>
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_PERIPH_SPI=1"/>
@@ -406,6 +522,22 @@
                                     <listOptionValue builtIn="false" value="MODULE_PERIPH_TIMER=1"/>
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_PERIPH_UART=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_PHYDAT=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_PS=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_SAUL=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_SAUL_DEFAULT=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_SAUL_GPIO=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_SAUL_REG=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_SHELL=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_SHELL_COMMANDS=1"/>
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_STDIO_UART=1"/>
                                     									
@@ -431,6 +563,36 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/home/petr/git/riot-co2-meter/app/inc}&quot;"/>
                                     									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/core/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/drivers/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/sys/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/boards/nrf52840dk/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/boards/common/nrf52xxxdk/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/boards/common/nrf52/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/cpu/nrf52/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/cpu/nrf5x_common/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/cpu/cortexm_common/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/cpu/cortexm_common/include/vendor}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/sys/libc/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/home/petr/git/riot-co2-meter/bin/pkg/nrf52840dk/u8g2/csrc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/drivers/bmx280/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/drivers/ccs811/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/petr_RIOT/drivers/hdc1000/include}&quot;"/>
+                                    									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/RIOT/core/include}&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/RIOT/drivers/include}&quot;"/>
@@ -453,11 +615,17 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/RIOT/sys/libc/include}&quot;"/>
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/home/petr/git/riot-co2-meter/bin/pkg/nrf52840dk/u8g2/csrc}&quot;"/>
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/RIOT/drivers/bmx280/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/RIOT/drivers/ccs811/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/RIOT/drivers/hdc1000/include}&quot;"/>
                                     								
                                 </option>
                                 								
                                 <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.defs.55218820" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.defs" useByScannerDiscovery="true" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="MY_SHELL=1"/>
                                     									
                                     <listOptionValue builtIn="false" value="DEVELHELP=1"/>
                                     									
@@ -483,9 +651,17 @@
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_AUTO_INIT=1"/>
                                     									
+                                    <listOptionValue builtIn="false" value="MODULE_AUTO_INIT_SAUL=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_BME280=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_BMX280=1"/>
+                                    									
                                     <listOptionValue builtIn="false" value="MODULE_BOARD=1"/>
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_BOARDS_COMMON_NRF52XXDK=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_CCS811=1"/>
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_CO2_METER_RIOT_APP=1"/>
                                     									
@@ -503,6 +679,10 @@
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_DIV=1"/>
                                     									
+                                    <listOptionValue builtIn="false" value="MODULE_FMT=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_HDC1000=1"/>
+                                    									
                                     <listOptionValue builtIn="false" value="MODULE_ISRPIPE=1"/>
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_NEWLIB=1"/>
@@ -519,6 +699,8 @@
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_PERIPH_GPIO=1"/>
                                     									
+                                    <listOptionValue builtIn="false" value="MODULE_PERIPH_I2C=1"/>
+                                    									
                                     <listOptionValue builtIn="false" value="MODULE_PERIPH_PM=1"/>
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_PERIPH_SPI=1"/>
@@ -526,6 +708,22 @@
                                     <listOptionValue builtIn="false" value="MODULE_PERIPH_TIMER=1"/>
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_PERIPH_UART=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_PHYDAT=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_PS=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_SAUL=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_SAUL_DEFAULT=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_SAUL_GPIO=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_SAUL_REG=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_SHELL=1"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="MODULE_SHELL_COMMANDS=1"/>
                                     									
                                     <listOptionValue builtIn="false" value="MODULE_STDIO_UART=1"/>
                                     									

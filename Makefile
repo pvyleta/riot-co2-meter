@@ -17,7 +17,7 @@ MY_SHELL ?= 1
 
 ifeq ($(MY_SHELL),1)
     # we want to use SAUL:
-    USEMODULE += saul_default
+    #USEMODULE += saul_default
     # include the shell:
     USEMODULE += shell shell_commands
     # additional modules for debugging:
@@ -26,6 +26,7 @@ ifeq ($(MY_SHELL),1)
 endif
 
 USEMODULE += bme280 hdc1000 ccs811
+CFLAGS+=-DBMX280_PARAM_I2C_ADDR=65
 
 DIST_FILES += Makefile
 

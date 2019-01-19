@@ -17,11 +17,11 @@
  */
 
 #include <app.h>
-
 #include <u8g2.h>
 #include <u8x8_riotos.h>
 #include <led.h>
 #include <xtimer.h>
+#include "i2cdetect.c"
 
 #if MY_SHELL == 1
 #include <shell.h>
@@ -39,6 +39,11 @@
 #define MAINLOOP_DELAY  (2 * 1000 * 1000u)      /* 2 seconds delay between printf's */
 
 static int bme280(void);
+
+static const shell_command_t shell_commands[] = {
+    { "i2cdetect", "Scan I2C bus for devices", i2cdetect},
+    { NULL, NULL, NULL }
+};
 
 void app(void) {
 	LED_ON(0);
@@ -72,33 +77,12 @@ void app(void) {
     puts("Drawing on screen.");
     u8log_WriteString(&u8log, "12345678901234567890123456789012\n");
 
-#if 0
-    puts("Scanning i2c.");
-
-    const int i2c_dev = 0;
-
-    i2c_acquire(i2c_dev);
-    for (int i = 0; i < 128; i++)
-    {
-        int bytes_read = 0;
-        int retval = i2c_read_reg(i2c_dev, i, BMX280_CHIP_ID_REG, &bytes_read, 0);
-        if (retval != 0)
-        {
-            printf("Failed on address %d with error %d.\n", i, retval);
-        }
-        else
-        {
-            printf("Success on address %d!\n", i);
-        }
-    }
-    i2c_release(i2c_dev);
-    puts("Scanning i2c finished.");
-#endif
-    bme280();
 #if MY_SHELL == 1
     char line_buf[SHELL_DEFAULT_BUFSIZE];
-    shell_run(NULL, line_buf, SHELL_DEFAULT_BUFSIZE);
+    shell_run(shell_commands, line_buf, sizeof(line_buf));
 #endif
+
+    if(0)bme280();
 }
 
 static int bme280(void)
